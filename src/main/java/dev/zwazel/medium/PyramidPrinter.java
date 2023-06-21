@@ -2,7 +2,7 @@ package dev.zwazel.medium;
 
 /**
  * Write a program that takes a number as input and outputs a pyramid of that width.
- * Example: getPyramid(3) should return:
+ * Example: if number is 3, console output should be:
  *     *
  *    * *
  *   * * *
@@ -10,9 +10,5 @@ package dev.zwazel.medium;
 public class PyramidPrinter {
     public static void main(String[] args) {
 
-    }
-
-    public static String getPyramid(int baseWidth) {
-        return "";
     }
 }
