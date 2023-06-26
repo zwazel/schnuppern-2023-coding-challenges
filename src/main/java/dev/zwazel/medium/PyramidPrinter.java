@@ -5,9 +5,9 @@ import java.util.Scanner;
 /**
  * Write a program that takes a number as input and outputs a pyramid of that width.
  * Example: if number is 3, console output should be:
- * *
- * * *
- * * * *
+    *
+   * *
+  * * *
  */
 public class PyramidPrinter {
     private final static Scanner SCANNER = new Scanner(System.in);
