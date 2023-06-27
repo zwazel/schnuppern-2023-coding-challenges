@@ -1,17 +1,18 @@
-package dev.zwazel.hard;
+package dev.zwazel.extreme;
 
 /**
  * Challenge: Rotate a matrix by 90 degrees.
+ *
  * Example:
  * before:
- * 123
- * 456
- * 789
- *
+ * 1, 2, 3
+ * 4, 5, 6
+ * 7, 8, 9
+ * <p>
  * after:
- * 741
- * 852
- * 963
+ * 7, 4, 1
+ * 8, 5, 2
+ * 9, 6, 3
  */
 public class RotateMatrix {
     /**
@@ -20,7 +21,7 @@ public class RotateMatrix {
      * @param array int[][]
      * @return int[][]
      */
-    private static int[][] rotateMatrix(int[][] array) {
+    public static int[][] rotateMatrix(int[][] array) {
         return null;
     }
 

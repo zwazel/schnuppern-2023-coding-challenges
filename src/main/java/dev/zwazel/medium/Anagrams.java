@@ -7,11 +7,8 @@ package dev.zwazel.medium;
  * For example, “listen” and “silent” are anagrams of each other
  */
 public class Anagrams {
-    public static void main(String[] args) {
-
-    }
-
     public static boolean isAnagram(String first, String second) {
+        // TODO: implement this method
         return false;
     }
 }

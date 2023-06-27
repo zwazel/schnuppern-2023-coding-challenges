@@ -1,4 +1,4 @@
-package dev.zwazel.hard.advancedCalculator.enums;
+package dev.zwazel.extremelyExtreme.advancedCalculator.enums;
 
 public enum Operator {
     OPENING_BRACKET(false, '(', null, null),
@@ -9,7 +9,7 @@ public enum Operator {
 
     // TODO: Add Divide operator, make sure you handle division by zero.
     // TODO: If you want you can add other operators, for example: modulo, power, root, sin, cos, tan, log, etc.
-    
+
     private final boolean leftAssociative;
     private final char symbol;
     private final Priority priority;

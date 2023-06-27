@@ -1,4 +1,4 @@
-package dev.zwazel.hard.advancedCalculator.enums;
+package dev.zwazel.extremelyExtreme.advancedCalculator.enums;
 
 @FunctionalInterface
 public interface CalculationInterface {
