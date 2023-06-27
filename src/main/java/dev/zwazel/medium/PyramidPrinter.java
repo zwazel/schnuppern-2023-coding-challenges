@@ -13,21 +13,11 @@ public class PyramidPrinter {
     private final static Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
-
+        System.out.println(pyramidString(4));
     }
 
-    /**
-     * Use this method to get an int from console input.
-     *
-     * @return int
-     */
-    private static int readInt() {
-        while (!SCANNER.hasNextInt()) {
-            System.out.println("Please input a valid int!");
-            SCANNER.next();
-        }
-        int out = SCANNER.nextInt();
-        SCANNER.nextLine();
-        return out;
+    public static String pyramidString(int baseWidth){
+        //TODO generate pyramid here
+        return "";
     }
 }
