@@ -7,9 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class PyramidPrinterTest {
     @Test
     void pyramidString() {
-        String pyramid = PyramidPrinter.pyramidString(3);
+        assertEquals(" *\n" +
+                "***", PyramidPrinter.pyramidString(3));
+
         assertEquals("  *\n" +
-                " * *\n" +
-                "* * *", pyramid);
+                " ***\n" +
+                "*****", PyramidPrinter.pyramidString(5));
     }
 }
